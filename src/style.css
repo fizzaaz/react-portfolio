@@ -53,18 +53,18 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #192f50;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(100, 151, 209, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(100, 151, 209, 0.959);
   border-radius: 12px;
 }
 
@@ -72,7 +72,7 @@ html {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #212038d8 !important;
+  background-color: #192f50 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -94,7 +94,7 @@ html {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: rgba(100, 151, 209, 0.959)!important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -191,7 +191,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #2682ad;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -283,12 +283,12 @@ html {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #2682ad !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #2682ad !important;
 }
 
 @media (max-width: 767px) {
