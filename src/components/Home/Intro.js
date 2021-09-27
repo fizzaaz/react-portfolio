@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Tilt from "react-parallax-tilt";
-import Skills from "./skills";
-import Tools from "./tools"
+import Skills from "./Intro/skills";
+import Tools from "./Intro/tools"
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -10,35 +9,18 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Home2() {
+/* import skills and tools from a separte component */
+function Intro() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME INTRODUCE MYSELF
-            </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-             
-            </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={`myImg`} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-        </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        <strong > Professional Skills </strong>
         </h1>
-
-        <Skills />
+        <Skills/>
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong>Tools & Technologies</strong> 
         </h1>
         <Tools />
 
@@ -96,4 +78,4 @@ function Home2() {
     </Container>
   );
 }
-export default Home2;
+export default Intro;
