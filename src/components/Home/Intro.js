@@ -1,9 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import Techstack from "./skills";
-import Toolstack from "./tools"
+import Skills from "./skills";
+import Tools from "./tools"
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -23,28 +22,7 @@ function Home2() {
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              
-                C++, Javascript and Python. 
-              
-              <br />
-              <br />
-              My field of Interest's are building new 
-             Web Technologies and Products  and
-                also in areas related to
-                
-                  Deep Learning and Natural Launguage Processing.
-                
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with Node.js and
              
-                  Modern Javascript Library and Frameworks
-              
-               like
-             React.js and Next.js
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -57,12 +35,12 @@ function Home2() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
-        <Techstack />
+        <Skills />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <Tools />
 
         <Row>
           <Col md={12} className="home-about-social">
