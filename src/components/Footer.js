@@ -10,16 +10,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
+
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Fizza Zaidi</h3>
-        </Col>
-        <Col md="4" className="footer-body">
+    
+        <Col md="4" className="footer-body" style={{marginLeft:"32%"}}>
           <ul className="footer-icons">
             <li className="social-icons">
               <a

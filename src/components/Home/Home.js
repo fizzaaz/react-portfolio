@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/avatar.svg";
 import Particle from "../Particle";
+import About from "../About/About";
 import Home2 from "./Intro";
 import Type from "./Type";
 
@@ -33,6 +34,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+<About/>
       <Home2 />
     </section>
   );

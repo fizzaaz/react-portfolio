@@ -42,14 +42,10 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Frontend Developer Intern [Flash Tech]"
-              date="July 2021 - September 2021"
+              title="FRONT-END DEVELOPER"
+              date="JAN'18 - FEB-19"
               content={[
-                "Worked on the development of an E-commerce website",
-                "Redesigned Wigme.com and created features to enhance the user experience and optimized designs for smartphones.",
-                " Translated designs and wireframes into a highly responsive user interface and reusable components using React.js.",
-                "Used Back-End APIs to display data using the Custom Components, library Components, and Redux.",
-                "Used JIRA as the bug tracking system to track and maintain the history of bugs/issues on an everyday basis.",
+                "Developed websites from the front to backend using PHP, JavaScript, HTML and CSS. Enhanced user experience and accomplish webpage objectives by creating website structure, navigation and page optimization.",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
