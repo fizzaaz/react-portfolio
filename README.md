@@ -31,7 +31,7 @@ I have created a portfolio, using my new React skills to help set you apart from
 ✋ [GitHub Repository](https://github.com/fizzaaz/react-portfolio)
 
 
-✋ [Deployed App]()
+✋ [Deployed App](https://fizzaaz.github.io/react-portfolio/)
 
 
 ![Screen Shot](./src/Assets/ss.JPG)
@@ -75,7 +75,7 @@ Run the following command at the root of your project :
   
 `npm start`     
 
-To access the app after starting the server, go to http://localhost:3000 in your browser or go to 
+To access the app after starting the server, go to http://localhost:3000 in your browser or go to https://fizzaaz.github.io/react-portfolio/
 
 ## 💾Installation
 
