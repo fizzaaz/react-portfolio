@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.7ab1139c.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.98894b2e.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.98894b2e.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.73512b21.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.73512b21.js.map",
+    "static/css/2.d6dc494e.chunk.css": "/react-portfolio/static/css/2.d6dc494e.chunk.css",
+    "static/js/2.06620d8d.chunk.js": "/react-portfolio/static/js/2.06620d8d.chunk.js",
+    "static/js/2.06620d8d.chunk.js.map": "/react-portfolio/static/js/2.06620d8d.chunk.js.map",
+    "static/js/3.552ccbb4.chunk.js": "/react-portfolio/static/js/3.552ccbb4.chunk.js",
+    "static/js/3.552ccbb4.chunk.js.map": "/react-portfolio/static/js/3.552ccbb4.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.d6dc494e.chunk.css.map": "/react-portfolio/static/css/2.d6dc494e.chunk.css.map",
+    "static/css/main.7ab1139c.chunk.css.map": "/react-portfolio/static/css/main.7ab1139c.chunk.css.map",
+    "static/js/2.06620d8d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.06620d8d.chunk.js.LICENSE.txt",
+    "static/media/1.239adf06.png": "/react-portfolio/static/media/1.239adf06.png",
+    "static/media/avatar.a7d83e65.svg": "/react-portfolio/static/media/avatar.a7d83e65.svg",
+    "static/media/cv.df8c809b.pdf": "/react-portfolio/static/media/cv.df8c809b.pdf",
+    "static/media/high5.a956344e.JPG": "/react-portfolio/static/media/high5.a956344e.JPG",
+    "static/media/horiseon.2620fc21.JPG": "/react-portfolio/static/media/horiseon.2620fc21.JPG",
+    "static/media/passGen.4fcee14c.JPG": "/react-portfolio/static/media/passGen.4fcee14c.JPG",
+    "static/media/pwa.87c5a93a.JPG": "/react-portfolio/static/media/pwa.87c5a93a.JPG",
+    "static/media/quiz.6330358c.jpg": "/react-portfolio/static/media/quiz.6330358c.jpg",
+    "static/media/schedule.6fe68b6b.jpg": "/react-portfolio/static/media/schedule.6fe68b6b.jpg",
+    "static/media/travelplanner.af3d5704.JPG": "/react-portfolio/static/media/travelplanner.af3d5704.JPG",
+    "static/media/weather.25220ccc.jpg": "/react-portfolio/static/media/weather.25220ccc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73512b21.js",
+    "static/css/2.d6dc494e.chunk.css",
+    "static/js/2.06620d8d.chunk.js",
+    "static/css/main.7ab1139c.chunk.css",
+    "static/js/main.98894b2e.chunk.js"
+  ]
+}
