@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
-  AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiFillPhone,

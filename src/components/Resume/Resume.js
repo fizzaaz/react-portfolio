@@ -1,26 +1,13 @@
-import React, {  useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import axios from "axios";
 import pdf from "./cv.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-
-
-  useEffect(() => {
-    axios
-      .get(uri)
-      .then((res) => {
-    
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
+ 
 
   return (
     <Container fluid className="resume-section">
