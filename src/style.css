@@ -609,14 +609,14 @@ html {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #5547a3;
+  border-left: 2px solid #3245b1;
   position: relative;
 }
 
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: rgba(46, 33, 107, 0.365);
+  background: rgba(50, 68, 170, 0.365);
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -646,7 +646,7 @@ html {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #4f4dd386;
+  border: 2px solid #393cb986;
 }
 
 .like-item {
@@ -666,7 +666,7 @@ html {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #4f4dd386 !important;
+  background-color: #193c7c86 !important;
   border-color: #4f4dd386 !important;
 }
 

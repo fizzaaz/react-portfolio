@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {  useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
@@ -9,19 +9,13 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
   const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-  const [spojRank, upadteSpojRank] = useState(0);
-  const [hackerrank, upadteHackerank] = useState(0);
-  const [sem, upadateSem] = useState(0);
-  const [cgpa, upadteCgpa] = useState(0);
+
 
   useEffect(() => {
     axios
       .get(uri)
       .then((res) => {
-        upadteSpojRank(res.data.message[0].spojRank);
-        upadteHackerank(res.data.message[1].hackerrank);
-        upadteCgpa(res.data.message[2].cgpa);
-        upadateSem(res.data.message[3].sem);
+    
       })
       .catch((err) => {
         console.log(err);
@@ -43,43 +37,48 @@ function Resume() {
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="FRONT-END DEVELOPER"
-              date="JAN'18 - FEB-19"
+              date="JAN'18 - FEB'19"
               content={[
                 "Developed websites from the front to backend using PHP, JavaScript, HTML and CSS. Enhanced user experience and accomplish webpage objectives by creating website structure, navigation and page optimization.",
               ]}
             />
-            <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="FULL STACK DEVELOPER"
+              date="MAR'19-FEB'20"
               content={[
-                "Worked on building front-end UI design using HTML5, CSS3, JavaScript jQuery, and building API routes using Node and express.js.",
+                "Developed web applications to analyze and process data for different clients. Played a key role in the development, improvement, and operation of web-based software. Gained expertise in Bootstrap, Node.",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              title="UNIVERSITY OF TEXAS AUSTIN "
+              date="April'21 - October'21"
+              content={['Coding Bootcamp']}
             />
 
-            <h3 className="resume-title">Publications</h3>
             <Resumecontent
-              title=""
+              title="BAHRIA UNIVERSITY KARACHI CAMPUS"
+              date="2016-2020"
               content={[
-                "Article entitled An Overlapping Sliding Window and Combined Feature based Emotion Recognition System for EEG Signals publised in Emerald Publication;10.1108/ACI-05-2021-0130",
+                "Bachelors of Science in Computer Science",
               ]}
             />
 
-            <h3 className="resume-title">Ranks and Achivements</h3>
+              
+            <h3 className="resume-title">PROJECTS</h3>
             <Resumecontent
               title=""
               content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
+                `Online Food Order website`,
+                `Automation of School Science Laboratory System`,
+                "Super Market Point of Sale",
+                "Travel Planner",
+                "Social App (High5)",
+                "Online Food Order Desktop Application",
+                "Data warehouse of clothing application"
+
               ]}
             />
           </Col>

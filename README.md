@@ -1,76 +1,89 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="http://soumyajit.tech/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+<h1 align="center"> Web Applications (PWA) Challenge: Budget Tracker 👋</h1>
+  
+<p align="center">
+    <img src="https://img.shields.io/github/repo-size/jpd61/e-commerce-backend" />
+    <img src="https://img.shields.io/github/languages/top/jpd61/e-commerce-backend"  />
+    <img src="https://img.shields.io/github/issues/jpd61/e-commerce-backend" />
+    <img src="https://img.shields.io/github/last-commit/jpd61/e-commerce-backend" >
+    <a href="https://github.com/jpd61"><img src="https://img.shields.io/github/followers/jpd61?style=social" target="_blank" /></a>
+    <a href="https://twitter.com/jpdewoody">
+        <img alt="Twitter: jpdewoody" src="https://img.shields.io/twitter/follow/jpdewoody.svg?style=social" target="_blank" />
+    </a>
+</p>
+  
+<p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/express-orange" />
+    <img src="https://img.shields.io/badge/Sequelize-blue"  />
+    <img src="https://img.shields.io/badge/mySQL-blue"  />
+    <img src="https://img.shields.io/badge/dotenv-green" />
+</p>
+   
+<h4>Designed and coded by <a href="https://github.com/fizzaaz">FIZZA ZAIDI</a></h4> 
 
-<br/>
 
-<center>
+## Description
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+🔍Being a web developer means being part of a community. You’ll need a place to share your projects not only if you're applying for jobs or working as a freelancer but also so that you can share your work with fellow developers and collaborate on future projects.
 
-</center>
+I have created a portfolio, using my new React skills to help set you apart from other developers whose portfolios don’t use the latest technologies.
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+✋ [GitHub Repository](https://github.com/fizzaaz/budget-tracker)
 
-## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+✋ [Deployed App](https://pwa-budgetracker.herokuapp.com/)
 
-## Built With
 
-My personal portfolio <a href="http://soumyajit.tech/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+![Screen Shot](./public/assets/images/ss.JPG)
 
-This project was built using these technologies.
+## ✋User Requirements
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+AS AN avid traveler
+I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+SO THAT my account balance is accurate when I am traveling 
 
-## Features
+## ✋Project Requirements
 
-**📖 Multi-Page Layout**
+GIVEN a budget tracker without an internet connection
+* WHEN the user inputs an expense or deposit THEN they will receive a notification that they have added an expense or deposit
+* WHEN the user reestablishes an internet connection THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## Table of Contents
+- [Description](#description)
+- [User Requirements](#user-requirements)
+- [Project Requirements](#project-requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contribution](#contribution)
+- [Questions](#questions)
 
-**📱 Fully Responsive**
+## 💻Usage
+  
+Run the following command at the root of your project :
+  
+`npm start`     
 
-## Getting Started
+To access the app after starting the server, go to http://localhost:3000 in your browser or go to https://pwa-budgetracker.herokuapp.com/.
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+## 💾Installation
 
-## 🛠 Installation and Setup Instructions
+`npm i install`
 
-1. Installation: `npm install`
+`npm i express`
 
-2. In the project directory, you can run: `npm start`
+`npm i mongoose`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+## ✏️Testing
 
-## Usage Instructions
+No testing is currently set up
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+## 👪Contribution
 
-### Show your support
+  Email me 
 
-Give a ⭐ if you like this website!
+## Questions
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+ If you have any queries feel free to contact me at ✉️ fizz.zehra14@gmail.com.
+ You can also reach me out through my Github profile at  👋[fizzaaz](https://github.com/fizzaaz/).
+

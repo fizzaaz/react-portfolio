@@ -12,7 +12,7 @@ function ResumeContent(props) {
       <ul>
         {props.content.map((value, index) => (
           <li key={index}> ‣ {value}</li>
-        ))}
+        ))}a
       </ul>
     </div>
   );
