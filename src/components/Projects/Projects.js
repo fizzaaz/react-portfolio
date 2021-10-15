@@ -12,6 +12,8 @@ import weather from "../../Assets/Projects/weather.jpg";
 import schedule from "../../Assets/Projects/schedule.jpg";
 import quiz from "../../Assets/Projects/quiz.jpg";
 import BudgetTracker from "../../Assets/Projects/pwa.JPG"
+import freemaps from "../../Assets/Projects/freemaps.JPG";
+
 
 function Projects() {
   return (
@@ -35,7 +37,16 @@ function Projects() {
               url="https://fizzaaz.github.io/travel-planner/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={freemaps}
+              isBlog={false}
+              title="Free Maps"
+              description="Find free items on the go! Check out the free-maps, someone elses trash may be the item you need!. Free-map is a non-profit website, allowing users to search for charities and donate to a personal cause of their choosing. The application incorporates the full MERN stack, featuring a Mongo Database that saves user information."
+              link="https://github.com/bleakney/free-maps"
+              url="https://tranquil-garden-66594.herokuapp.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={horiseon}
