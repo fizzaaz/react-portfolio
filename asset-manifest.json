@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.7ab1139c.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.a6030fa4.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.a6030fa4.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.c6d1ba46.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c6d1ba46.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.73512b21.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.73512b21.js.map",
     "static/css/2.d6dc494e.chunk.css": "/react-portfolio/static/css/2.d6dc494e.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/1.239adf06.png": "/react-portfolio/static/media/1.239adf06.png",
     "static/media/avatar.a7d83e65.svg": "/react-portfolio/static/media/avatar.a7d83e65.svg",
     "static/media/cv.df8c809b.pdf": "/react-portfolio/static/media/cv.df8c809b.pdf",
+    "static/media/freemaps.b6e39864.JPG": "/react-portfolio/static/media/freemaps.b6e39864.JPG",
     "static/media/high5.a956344e.JPG": "/react-portfolio/static/media/high5.a956344e.JPG",
     "static/media/horiseon.2620fc21.JPG": "/react-portfolio/static/media/horiseon.2620fc21.JPG",
     "static/media/passGen.4fcee14c.JPG": "/react-portfolio/static/media/passGen.4fcee14c.JPG",
@@ -31,6 +32,6 @@
     "static/css/2.d6dc494e.chunk.css",
     "static/js/2.06620d8d.chunk.js",
     "static/css/main.7ab1139c.chunk.css",
-    "static/js/main.a6030fa4.chunk.js"
+    "static/js/main.c6d1ba46.chunk.js"
   ]
 }
